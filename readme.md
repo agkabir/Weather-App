@@ -1,6 +1,6 @@
 # 1. The fastest presser
 
-Afun simple game :)
+A simple fun game :)
 
 Here is the setup of the game: **Two users compete** about who can **press a key the most times** within a set time!
 
