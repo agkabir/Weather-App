@@ -1,11 +1,27 @@
-# 1. The fastest presser
+## Weather app
 
-A simple fun game :)
+A simple **weather app** that based on a **users location** can find the relevant weather for that user.
 
-Here is the setup of the game: **Two users compete** about who can **press a key the most times** within a set time!
+### Sign up for api key
 
-A user specifies how long time the game should be, and presses **"start game!"**. When the button is pressed it is about pressing either `l` or `s` on the keyboard. The user that has the highest number of keypresses after the time is up, wins 🎉
+Go to https://openweathermap.org/appid and **sign up for an api key**. This key we will use for getting access to the weather api.
 
-Here is a gif of how the site worked:
+### First call to the weather api
 
-<img alt="homework folder" src="homework/fastest-clicker.gif" width="400" />
+To get some data from the api go to https://api.openweathermap.org/data/2.5/weather?q=copenhagen&appid=YOUR_APP_ID, where `YOUR_APP_ID` is substituted with the key you signed up for in the first step.
+
+If you go to the [above url](https://api.openweathermap.org/data/2.5/weather?q=copenhagen&appid=YOUR_APP_ID) and see some weather json data then congrats 🎉.
+
+### Fetching and Displaying weather data from a city
+
+This following data have been showed:
+
+- The chosen city
+- Temperature
+- Icon for the weather type
+- Wind speed
+- How clowdy it is
+- When sunrise and sunset is
+- a map showing where the city is located
+
+![Weather man](https://media.giphy.com/media/3ohzdJlyD2InWwbJle/giphy.gif)
